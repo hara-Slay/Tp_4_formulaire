@@ -1,0 +1,122 @@
+body{
+    background: linear-gradient(to right, #85c0ed,#9b88e4);
+}
+.flex{
+    display: flex;
+}
+
+.flex .totale{
+    width:420px;
+    margin: 10px 10px;
+} 
+.flex .separed2{
+    width: 160px;
+    margin: 10px 4px;
+}
+.flex .separed1{
+    width: 250px;
+    margin: 10px 10px;
+}
+.form2{
+    margin-top: 60px;
+    background-color: #4935D4;
+    margin-right: 70px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-right: 30px;
+    padding-left:30px;
+    color:#B1BCBA;
+    padding-bottom: 40px;
+}
+.form1{
+    margin-top: 60px;
+    background:#FFFFFF;
+    margin-left: 100px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #747474;
+    padding-bottom: 40px;
+
+}
+form{
+    width: 700px;
+    margin-left:5vw;
+    height: 800px;
+    font-weight:7px;
+}
+.milieu{
+    width:205px;
+    margin-left:5px;
+    height:40px;
+    padding-bottom:9px;
+}
+input,select{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    background: none;
+    height: 30px;
+}
+input,select:focus{
+    outline: none;
+}
+form button{
+    padding:10px 10px;
+    margin:20px 10px;
+    border-radius:10px;
+}
+h1{
+    margin-left: 20px;
+}
+h1{
+    color:#8fa7d9;
+    font-family: sans-serif;
+    font-size: 25px;
+}
+h2{
+    color: cornsilk;
+    font-family: sans-serif;
+    font-size: 25px;
+}
+.form2 select,input::placeholder{
+    color: rgb(216, 215, 215);
+}
+.form2 select, .form2 input{
+    border-bottom: solid 0.5px #7f00f2;
+}
+.form1 select,.form1 input::placeholder{
+    color: rgb(83, 81, 81);
+}
+.form1 select,input{
+    border-bottom: solid 0.5px rgb(212, 212, 212);
+}
+#buton{
+    
+    margin-top:20px;
+}
+a{
+    color:whitesmoke;
+}
+#empl{
+    margin-top: 12px;
+    width: 155px;
+}
+#buton{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #999;
+    margin-right: 2px;
+    position: relative;
+    top: 4px;
+}
+#buton:checked{
+    background: rgb(235, 232, 232);
+    border: 6px solid rgb(223, 218, 218);
+    border: 2px solid #999;
+}
